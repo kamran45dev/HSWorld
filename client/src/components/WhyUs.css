@@ -1,0 +1,31 @@
+.whyus { background: var(--navy); position: relative; overflow: hidden; }
+.whyus-bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 60% at 80% 50%, rgba(201,168,76,0.07) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 10% 80%, rgba(26,48,96,0.5) 0%, transparent 70%);
+}
+.section-header.dark h2 { color: var(--white); }
+.section-header.dark p { color: rgba(255,255,255,0.65); }
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.why-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  transition: var(--transition);
+}
+.why-card:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(201,168,76,0.35);
+  transform: translateY(-4px);
+}
+.why-icon { font-size: 2.2rem; display: block; margin-bottom: 16px; }
+.why-card h4 { color: var(--white); font-size: 1.05rem; margin-bottom: 10px; }
+.why-card p { color: rgba(255,255,255,0.6); font-size: 0.92rem; }
+@media (max-width: 960px) { .why-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 580px)  { .why-grid { grid-template-columns: 1fr; } }

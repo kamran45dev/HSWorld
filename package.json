@@ -1,0 +1,11 @@
+{
+  "name": "hsworld-fullstack",
+  "version": "1.0.0",
+  "description": "H AND S WORLD Full-Stack Landing Page",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npx vite",
+    "start": "npm run dev:server"
+  }
+}

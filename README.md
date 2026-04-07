@@ -153,5 +153,5 @@ In the code, replace these placeholders with your real details:
 
 ---
 
-*Built for H AND S WORLD (M) SDN. BHD. — Building Dreams Into Reality.*
+*Built for H AND S WORLD (M) SDN. BHD. — Building Dreams Into Reality.*         
   
